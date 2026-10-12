@@ -1,8 +1,8 @@
 site_name: LLMegeton
 site_description: Field guide to existing LLM models and tips for directing your digital daemons
-site_url: https://semicolonexpected.github.io/llmegeton/
-repo_url: https://github.com/SemicolonExpected/llmegeton
-repo_name: SemicolonExpected/llmegeton
+site_url: https://semicolonexpected.github.io/LLMegeton/
+repo_url: https://github.com/SemicolonExpected/LLMegeton
+repo_name: SemicolonExpected/LLMegeton
 edit_uri: edit/main/docs/
 
 extra_css:
