@@ -49,5 +49,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Capabilities: capabilities/index.md
-  - Recurring Tasks: prompts/index.md
+  - Recurring Tasks: recurring-tasks/index.md
   - Skills: skills/index.md
