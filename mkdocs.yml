@@ -1,0 +1,50 @@
+site_name: LLMegeton
+site_description: Field guide to existing LLM models and tips for directing your digital daemons
+site_url: https://semicolonexpected.github.io/llmegeton/
+repo_url: https://github.com/SemicolonExpected/llmegeton
+repo_name: SemicolonExpected/llmegeton
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Capabilities: capabilities/index.md
+  - Prompts: prompts/index.md
+  - Skills: skills/index.md
