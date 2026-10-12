@@ -2,6 +2,15 @@
 
 *Field guide to existing LLM models and tips for directing your digital daemons.*
 
+```
+    Suppose you have an entity who does not understand human behavior. 
+    It is however a very quick learner and because it is not limited by the bias of human intuition, is very good at thinking outside the box. 
+    This entity for whatever reason is compelled to follow your command as best it can.
+    You ask it to clean your room and figure out what items to trash and what to keep.
+    You find out the entity has looked through your personal correspondences--it didn't toss them, but you know they definitely read them because they bring it up casually.
+    Can you really blame the entity if you never told it to under no circumstances read those specific documents?
+```
+
 ## What's inside
 
 - **[Capabilities](capabilities/index.md)** — what LLMs can actually do, and how they do it. A basic primer and some quirks of different types of models.
@@ -62,6 +71,7 @@ Unlike modern imaginings of either, this daemon is honest--it is incapable of de
 The issue is, though it can pick up and accomplish any task possible, it has no understanding of what is considered a reasonable or acceptable way to complete a task.
 The daemon is truly an outside the box thinker, but is tunnel visioned on the task you give it.
 In this way, you have to be properly communicate what you want and tell it what's off limits.
+
 
 **Prompting thus, requires good communication skills AND being able to consider whether a goal could lead to unwanted behavior.**
 
