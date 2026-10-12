@@ -2,7 +2,23 @@
 
 *Field guide to existing LLM models and tips for directing your digital daemons.*
 
-### Why the daemonic theme? 
+## What's inside
+
+- **[Capabilities](capabilities/index.md)** — what LLMs can actually do, and how they do it. A basic primer and some quirks of different types of models.
+- **[Custom Skills](skills/custom-skills/index.md)** — a library of custom agent skills. Read [Skills](skills/index.md) to understand what skills are.
+
+## Feed a Starving PhD Candidate
+
+<div class="donate-box">
+  <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> Support LLMegeton</h3>
+  <p>If this grimoire has ever saved you an afternoon of arguing with a model or you just found this entertaining, consider feeding the ~~daemon~~ human giving away daemon handling tips for free.</p>
+  <div class="donate-buttons">
+    <a href="https://ko-fi.com/semicolonexpected/?ref=llemegeton" target="_blank" rel="noopener">Ko-fi</a>
+    <a href="https://www.paypal.com/ncp/payment/HMUYNNURYMYLE" target="_blank" rel="noopener">PayPal</a>
+  </div>
+</div>
+
+## Why the daemonic theme? 
 
 What are LLMs but digital daemons in the classical sense. Despite current connotations, daemon (pronounced demon) aren't evil entities but helpful spirits that do little chores. 
 They're more akin to pre-Tolkien elves and gnomes. Slavics may know them as domovoy. Daemons are in a sense fae by another name. 
@@ -53,21 +69,6 @@ In this way, you have to be properly communicate what you want and tell it what'
     Skills used in prompting are transferable! Communicating ideas and needs well is useful for both the professional and interpersonal context. 
     Considering how seemingly simple instructions can be misinterpretted by someone who doesn't understand the reason behind the instruction is very important when thinking about policy.
 
-## What's inside
-
-- **[Capabilities](capabilities/index.md)** — what LLMs can actually do, and how they do it. A basic primer and some quirks of different types of models.
-- **[Custom Skills](skills/custom-skills/index.md)** — a library of custom agent skills. Read [Skills](skills/index.md) to understand what skills are.
-
-## Feed a Starving PhD Candidate
-
-<div class="donate-box">
-  <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> Support LLMegeton</h3>
-  <p>If this grimoire has ever saved you an afternoon of arguing with a model or you just found this entertaining, consider feeding the ~~daemon~~ human giving away daemon handling tips for free.</p>
-  <div class="donate-buttons">
-    <a href="https://ko-fi.com/semicolonexpected/?ref=llemegeton" target="_blank" rel="noopener">Ko-fi</a>
-    <a href="https://www.paypal.com/ncp/payment/HMUYNNURYMYLE" target="_blank" rel="noopener">PayPal</a>
-  </div>
-</div>
 
 ## Contributing
 
