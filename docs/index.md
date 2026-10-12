@@ -46,6 +46,7 @@ Besides, there's is a precident in tech for calling helpful programs doing autom
     The tome is attributed to the biblical King Solomon, but was written in the 17th century and Solomon's name slapped onto it to give it credibility. 
     It's the 1800's occultist equivalent to a study guide or self-help book titled "Einstein's Method". 
     How King Solomon, a biblical figure known to be wise and godly's became associated with the occult is similar to and has as much basis in Abrahamic canon as Dante or Milton's works.
+    
     The idea stems mostly from a text called The Testament of Solomon where King Solomon is given a ring by God that grants him authority over spirits--in greek *daemons*. 
     He uses these daemons to build the Temple of Jeruselum. While people say the ring had magic or divine powers, I'm almost certain the power it had was that it indicated he was granted authority to command spirits by God himself. 
     It's like a letter with a royal seal telling the recipient to give do/give bro whatever he needs to get the project done. 
