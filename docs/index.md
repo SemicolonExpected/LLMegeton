@@ -2,14 +2,19 @@
 
 *Field guide to existing LLM models and tips for directing your digital daemons.*
 
-```
+!!! note "Thought Experiment"
     Suppose you have an entity who does not understand human behavior. 
+    
     It is however a very quick learner and because it is not limited by the bias of human intuition, is very good at thinking outside the box. 
+    
     This entity for whatever reason is compelled to follow your command as best it can.
+    
     You ask it to clean your room and figure out what items to trash and what to keep.
+    
     You find out the entity has looked through your personal correspondences--it didn't toss them, but you know they definitely read them because they bring it up casually.
+    
     Can you really blame the entity if you never told it to under no circumstances read those specific documents?
-```
+
 
 ## What's inside
 
