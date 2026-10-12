@@ -5,6 +5,9 @@ repo_url: https://github.com/SemicolonExpected/llmegeton
 repo_name: SemicolonExpected/llmegeton
 edit_uri: edit/main/docs/
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   features:
