@@ -10,7 +10,7 @@ Just like house spirits in folklore, they can also be mischevious as well--thoug
 
 Besides, there's is a precident in tech for calling helpful programs doing automated tasks. I'm sure you've seen a `mailer-daimon` in your email at least once.
 
-    !!! info "Fun Fact"
+!!! info "Fun Fact"
     Grimoires, are books of instructions for directing spirits — what to say, what to draw, what order to do things in so the summoned thing does what you want.
     The most famous grimoire is [The Lesser Key of Solomon](https://en.wikipedia.org/wiki/The_Lesser_Key_of_Solomon) or *Lemegeton Clavicula Salomonis*.
     The tome is attributed to the biblical King Solomon, but was written in the 17th century and Solomon's name slapped onto it to give it credibility. 
@@ -49,7 +49,7 @@ In this way, you have to be properly communicate what you want and tell it what'
 
 **Prompting thus, requires good communication skills AND being able to consider whether a goal could lead to unwanted behavior.**
 
-    !!! tip "Fun Fact"
+!!! tip "Fun Fact"
     Skills used in prompting are transferable! Communicating ideas and needs well is useful for both the professional and interpersonal context. 
     Considering how seemingly simple instructions can be misinterpretted by someone who doesn't understand the reason behind the instruction is very important when thinking about policy.
 
