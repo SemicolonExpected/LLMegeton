@@ -19,6 +19,7 @@ Steal freely. Everything here is meant to be copied, remixed, and plugged into y
   <p>If this grimoire has ever saved you an afternoon of arguing with a model, consider feeding the daemon.</p>
   <div class="donate-buttons">
     <a href="https://ko-fi.com/semicolonexpected/?ref=llemegeton" target="_blank" rel="noopener">Ko-fi</a>
+    <a href="https://www.paypal.com/ncp/payment/HMUYNNURYMYLE" target="_blank" rel="noopener">PayPal</a>
   </div>
 </div>
 
