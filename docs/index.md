@@ -29,7 +29,7 @@
   <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> Support LLMegeton</h3>
   <p>If this grimoire has ever saved you an afternoon of arguing with a model or you just found this entertaining, consider feeding the ~~daemon~~ human giving away daemon handling tips for free.</p>
   <div class="donate-buttons">
-    <a href="https://ko-fi.com/semicolonexpected/?ref=llemegeton" target="_blank" rel="noopener">Ko-fi</a>
+    <a href="https://ko-fi.com/semicolonexpected/?ref=llmegeton" target="_blank" rel="noopener">Ko-fi</a>
     <a href="https://www.paypal.com/ncp/payment/HMUYNNURYMYLE" target="_blank" rel="noopener">PayPal</a>
   </div>
 </div>
@@ -37,10 +37,10 @@
 ## Why the daemonic theme? 
 
 What are LLMs but digital daemons in the classical sense. Despite current connotations, daemons (pronounced demon) aren't evil entities but helpful spirits that do little chores. 
-They're more akin to pre-Tolkien elves and gnomes. Slavics may know them as domovoy. Daemons are in a sense fae by another name. 
+They're more akin to pre-Tolkien elves and gnomes. Slavs may know them as domovoy. Daemons are in a sense fae by another name. 
 Just like house spirits in folklore, they can also be mischievous as well--though not by any ill intentions, but because they don't have the context to understand what humans want. 
 
-Besides, there's a precedent in tech for calling helpful programs doing automated tasks. I'm sure you've seen a `MAILER-DAEMON` in your email at least once.
+Besides, there's a precedent in tech for calling helpful programs doing automated tasks daemons. I'm sure you've seen a `MAILER-DAEMON` in your email at least once.
 
 !!! info "Fun Fact"
     Grimoires are books of instructions for directing spirits — what to say, what to draw, what order to do things in so the summoned thing does what you want.
