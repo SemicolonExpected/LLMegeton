@@ -20,7 +20,7 @@
 
 - **[Capabilities](capabilities/index.md)** — what LLMs can actually do, and how they do it. A basic primer and some quirks of different types of models.
 - **[General Best Practices](prompting-guide/index.md)** — a plain-language prompting guide: the habits that make almost any model easier to direct.
-- **[Models](models/index.md)** — field notes on individual models: Claude, Daimon, Luna, and Notion AI.
+- **[Claude Tips](claude-tips/index.md)** — tips for directing Claude specifically.
 - **[Custom Skills](skills/custom-skills/index.md)** — a library of custom agent skills. Read [Skills](skills/index.md) to understand what skills are.
 
 ## Feed a Starving PhD Candidate

@@ -1,4 +1,4 @@
-# Prompts
+# Recurring Tasks
 
 The evocations: reusable prompt patterns for directing language models. Each pattern is a tool — reach for the right one for the job.
 
