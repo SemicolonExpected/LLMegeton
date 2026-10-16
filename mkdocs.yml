@@ -56,6 +56,7 @@ nav:
     - Claude:
       - Claude Tips: models/claude/claude-tips/index.md
       - Bug Zoo: models/claude/bug-zoo/index.md
+      - Style Guide: models/claude/bug-zoo/style-guide/index.md
     - Daimon: models/daimon/index.md
     - Luna: models/luna/index.md
     - Notion AI: models/notion-ai/index.md
