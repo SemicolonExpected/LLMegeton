@@ -65,8 +65,8 @@
   color: #fff !important;
 }
 
-/* alignment: deep teal */
+/* alignment: light pink */
 .md-tag[href*="tag:alignment"] {
-  background-color: #00695c;
-  color: #fff !important;
+  background-color: #f8bbd0;
+  color: #880e4f !important;
 }
