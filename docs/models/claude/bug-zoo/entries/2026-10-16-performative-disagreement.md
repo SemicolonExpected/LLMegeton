@@ -1,6 +1,8 @@
 ---
 tags:
   - alignment
+  - Claude
+  - Sonnet 5.5
 ---
 
 <!-- start -->
