@@ -51,5 +51,11 @@ nav:
   - Capabilities: capabilities/index.md
   - Prompting Guide: prompting-guide/index.md
   - Recurring Tasks: recurring-tasks/index.md
-  - Claude Tips: claude-tips/index.md
+  - Models:
+    - Models: models/index.md
+    - Claude:
+      - Claude Tips: models/claude/claude-tips/index.md
+    - Daimon: models/daimon/index.md
+    - Luna: models/luna/index.md
+    - Notion AI: models/notion-ai/index.md
   - Skills: skills/index.md
