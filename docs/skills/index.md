@@ -5,7 +5,7 @@ They're akin to a chapter in an employee manual for the agent to follow when per
 
 LLM agents usually come packaged with various skills, however some models have the skill to create new custom skills and "learn" new prewritten skills.
 
-**[LLMegeton Custom Skills](custom-skills/index.md)** are close to ready to use out the box and just require editing the files for your specific agent and accounts.
+**[LLMegeton Custom Skills](custom-skills/index.md)** are close to ready to use out of the box and just require editing the files for your specific agent and accounts.
 
 ## What a skill is
 
@@ -34,9 +34,9 @@ The `description` is the critical part — it's what the agent uses to decide *w
 ## Anatomy of a good skill
 
 1. **Trigger description** — one or two sentences; this is the retrieval key. Be specific about the situations it covers.
-2. **Procedure** — the steps, in order. Imperative voice. Assume a smart reader with no prior context. Be clear and specific. Reference other existing skills. For example, a skill to clean-up emails may link to `gmail/SKILL.md` or direct the agent to the `outlook` skill.
+2. **Procedure** — the steps, in order. Imperative voice. Assume a smart reader with no prior context. Be clear and specific. Reference other existing skills. For example, a skill to clean up emails may link to `gmail/SKILL.md` or direct the agent to the `outlook` skill.
 3. **Conventions** — the non-obvious rules: naming, formats, edge cases, what *NOT* to do.
-4. **Examples** — at least one concrete input/output pair. Abstract instructions alone undermines behavior.
+4. **Examples** — at least one concrete input/output pair. Abstract instructions alone undermine behavior.
 5. **Scripts** — if the task involves repeatable mechanics (API calls, file transforms), ship a script rather than describing the steps in prose. Code doesn't get misread.
 
 ## Adapting a skill
@@ -44,7 +44,7 @@ The `description` is the critical part — it's what the agent uses to decide *w
 Skills are meant to be adapted to suit individual needs. When borrowing one:
 
 - **READ THE WHOLE SKILL** - skills authored by SemicolonExpected on LLMegeton will typically be safe, however just as you shouldn't run shell commands or give an agent a prompt without knowing what it does, you should definitely not have your agent follow a tome of instructions without knowing what it's telling the agent to do when. 
-- **Trigger description** — rewrite it to match what how *you* would ask for the task to be done (or the agent will reach for it at the wrong times).
+- **Trigger description** — rewrite it to match how *you* would ask for the task to be done (or the agent will reach for it at the wrong times).
 - **Change behavior to suit your needs** — How one person wants a task done may not be how *you* would like it done.
 - **Localize conventions** — paths, tool names, account details: replace the author's with yours.
 - **Test** — ask your agent something the skill should trigger on, and something adjacent it shouldn't. Adjust the description until both behave. Skills may have unexpected interactions with other skills or act in ways the skill author never anticipated due to differences in settings or other preexisting instructions given by their user or system prompt.

@@ -49,5 +49,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Capabilities: capabilities/index.md
+  - Prompting Guide: prompting-guide/index.md
   - Recurring Tasks: recurring-tasks/index.md
+  - Claude Tips: claude-tips/index.md
   - Skills: skills/index.md
