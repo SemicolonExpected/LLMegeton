@@ -46,3 +46,27 @@
   opacity: 0.85;
   color: var(--md-primary-bg-color) !important;
 }
+
+/* Bug zoo tag chips */
+.md-tag {
+  border-radius: 1rem;
+  padding: 0.15rem 0.8rem;
+  font-weight: 500;
+  border: none;
+}
+
+.md-tag:hover {
+  opacity: 0.85;
+}
+
+/* thought crime: ember red */
+.md-tag[href*="tag:thought-crime"] {
+  background-color: #c62828;
+  color: #fff !important;
+}
+
+/* alignment: deep teal */
+.md-tag[href*="tag:alignment"] {
+  background-color: #00695c;
+  color: #fff !important;
+}
