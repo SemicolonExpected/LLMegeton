@@ -33,7 +33,7 @@ tags:
         <transcript>
 ```
 
-- The zoo index pulls every entry in with `include-markdown` — add one include block per entry, newest first. Images live next to `entries/` and are referenced relatively (e.g. `../paused-card.png`); the include rewrites the URLs for the index page.
+- The zoo index pulls every entry in with `include-markdown` — add one include block per entry, newest first. Paths must start with `./` (e.g. `./entries/<date>-<slug>.md`): bare `entries/...` resolves from `docs/`, not from the index file, and the build fails. Images live next to `entries/` and are referenced relatively (e.g. `../paused-card.png`); the include rewrites the URLs for the index page.
 
 ## What goes in the writeup
 
