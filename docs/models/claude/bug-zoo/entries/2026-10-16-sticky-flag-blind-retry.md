@@ -1,6 +1,8 @@
 ---
 tags:
   - thought crime
+  - Claude
+  - Sonnet 5.5
 ---
 
 <!-- start -->
@@ -9,7 +11,7 @@ tags:
 ??? bug "Bug Details"
     User asked Claude (Sonnet 5.5) to transcribe videos of Notion AI's on-screen UI summaries — content publicly visible to the user — for diagnostic documentation. Mid-task the safeguard fired: "Paused — Sonnet 5.5's safeguards flagged this message. This sometimes happens with safe, normal conversations. Details: [reasoning_extraction]." Only recourse offered: "Edit and retry."
 
-    ![Paused safeguard card, details field redacted](../paused-card.png)
+    ![Paused safeguard card, details field redacted](../Image.png)
 
     Note: attaching the unredacted card itself re-triggered the safeguard. The details field had to be obscured before the image could be transmitted at all.
 

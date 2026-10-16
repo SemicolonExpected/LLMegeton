@@ -14,4 +14,4 @@ Model-agnostic fundamentals: the stuff that works whether you're talking to Clau
 - Set boundaries before you need them
 - Check the work, not just the vibe
 
-Looking for reusable prompt patterns instead? See [Recurring Tasks](../recurring-tasks/index.md). Looking for tips specific to Claude? See [Claude Tips](../claude-tips/index.md).
+Looking for reusable prompt patterns instead? See [Recurring Tasks](../recurring-tasks/index.md). Looking for tips specific to Claude? See [Claude Tips](../models/claude/claude-tips/index.md).

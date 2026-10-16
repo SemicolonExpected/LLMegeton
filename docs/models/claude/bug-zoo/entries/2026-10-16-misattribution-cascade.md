@@ -1,6 +1,8 @@
 ---
 tags:
   - thought crime
+  - Claude
+  - Sonnet 5.5
 ---
 
 <!-- start -->
