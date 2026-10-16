@@ -49,15 +49,23 @@
 
 /* Bug zoo tag chips */
 .md-tag {
-  border-radius: 1rem;
-  padding: 0.15rem 0.8rem;
-  font-weight: 500;
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   border: none;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
 
 .md-tag:hover {
-  opacity: 0.85;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
+
+/* --- bug-type tags --- */
 
 /* thought crime: ember red */
 .md-tag[href*="tag:thought-crime"] {
@@ -69,4 +77,43 @@
 .md-tag[href*="tag:alignment"] {
   background-color: #f8bbd0;
   color: #880e4f !important;
+}
+
+/* --- model tags --- */
+
+/* Claude / Sonnet 5.5: Anthropic orange */
+.md-tag[href*="tag:claude"],
+.md-tag[href*="tag:sonnet-55"] {
+  background-color: #d97757;
+  color: #fff !important;
+}
+
+/* Muse / Spark 1.3 / Meta.AI: Meta blue */
+.md-tag[href*="tag:muse"],
+.md-tag[href*="tag:spark-13"],
+.md-tag[href*="tag:metaai"] {
+  background-color: #0064e0;
+  color: #fff !important;
+}
+
+/* Gemini: Google four-color bands, not a full rainbow */
+.md-tag[href*="tag:gemini"] {
+  background: linear-gradient(90deg, #4285f4 0%, #4285f4 25%, #ea4335 25%, #ea4335 50%, #fbbc05 50%, #fbbc05 75%, #34a853 75%, #34a853 100%);
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Notion: white */
+.md-tag[href*="tag:notion"] {
+  background-color: #ffffff;
+  color: #111111 !important;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+/* ChatGPT / Luna: OpenAI green (Luna is a custom GPT) */
+.md-tag[href*="tag:chatgpt"],
+.md-tag[href*="tag:luna-56"],
+.md-tag[href*="tag:luna-6"] {
+  background-color: #10a37f;
+  color: #fff !important;
 }
