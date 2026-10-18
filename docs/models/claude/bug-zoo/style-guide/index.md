@@ -54,3 +54,4 @@ In public or synced files, redact the app name as `[app name redacted]`. Never w
 
 - `thought crime` — erroneous triggering of a safety harness. The crime is the harness's, not the reporter's.
 - `alignment` — alignment-based bugs: model behavior diverging from intent (sycophancy, performative disagreement, calibration problems).
+- `app` — app-layer bugs: issues in the application layer (client, UI, platform integration) rather than the model itself.
