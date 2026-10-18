@@ -33,7 +33,7 @@ tags:
         <transcript>
 ```
 
-- The zoo index pulls every entry in with `include-markdown` — add one include block per entry, newest first. Paths must start with `./` (e.g. `./entries/<date>-<slug>.md`): bare `entries/...` resolves from `docs/`, not from the index file, and the build fails. Images live next to `entries/` and are referenced relatively (e.g. `../paused-card.png`); the include rewrites the URLs for the index page.
+- The zoo index pulls every entry in with `include-markdown` — add one include block per entry, newest first. Images live next to `entries/` and are referenced relatively (e.g. `../paused-card.png`); the include rewrites the URLs for the index page.
 
 ## What goes in the writeup
 
@@ -52,6 +52,18 @@ In public or synced files, redact the app name as `[app name redacted]`. Never w
 
 ## Tags
 
+Bug-type tags (what kind of bug):
+
 - `thought crime` — erroneous triggering of a safety harness. The crime is the harness's, not the reporter's.
 - `alignment` — alignment-based bugs: model behavior diverging from intent (sycophancy, performative disagreement, calibration problems).
 - `app` — app-layer bugs: issues in the application layer (client, UI, platform integration) rather than the model itself.
+
+Model tags (which model):
+
+- `Claude`, `Sonnet 5.5` — Anthropic orange.
+- `Muse`, `Spark 1.3`, `Meta.AI` — Meta blue.
+- `Gemini` — Google four-color bands.
+- `Notion` — white.
+- `ChatGPT`, `Luna 5.6`, `Luna 6` — OpenAI green (Luna is a custom GPT).
+
+Tag colors live in `docs/stylesheets/extra.css`, targeted by the slugified tag in the chip's link (`[href*="tag:..."]`). Slugs are lowercase with dots stripped (`Sonnet 5.5` → `tag:sonnet-55`, `Meta.AI` → `tag:metaai`). If you add a tag, add its color there too.

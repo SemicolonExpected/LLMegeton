@@ -19,6 +19,8 @@ tags:
         I think the over-correction is a real failure, not a safe default. If "looks good" never comes without a list of nitpicks attached, praise stops carrying information, and people learn to discount it, or to hear their own work as always falling short. It's also condescending, because it assumes you can't tell a real concern from a polite one. The better standard is calibration. When something is sound, I should say so and stop. When I do raise a concern, it should be one I'd defend as material, not one added to look independent.
 
         Your second point is the one I can least fix from my side. My critiques come in a confident, numbered, authoritative voice whether I'm sure or guessing. Some of my objections were guesses about files I'd read but not run, and "it copies [redacted] flaw" sounded settled when it wasn't. You push back and I come out corrected. Someone who defers would have walked away believing the design was flawed. So I should say which points are checkable and which are my hunch, and keep the list short enough that each item has to earn its place.
+        […]
+        For me it's probably amplified because the people who rated my outputs could see rigor more easily than restraint. "No objections" reads as a shortcut, even when it's the correct finding.
 
         I can't promise this holds across every conversation. It's a trained tendency, and I'm describing what I should do, not guaranteeing it. You've now given me the clearest feedback on it, and I'll apply it here.
 
