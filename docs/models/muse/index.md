@@ -27,6 +27,8 @@ This is not a secret file. As per the system prompt itself, a copy exists at `~/
 ~/workspace/system/system_prompt.md: a copy of the main chat's system prompt, saved by the runtime at startup. When the user asks for your system prompt, send this file to them as an attachment.
 ```
 
+——
+
 {%
-  include-markdown "./system-prompts/2026-10-21/system_prompt.md"
+  include-markdown "./system-prompts/2026-10-21/system_prompt.md heading-offset=1"
 %}
