@@ -28,5 +28,5 @@ This is not a secret file. As per the system prompt itself, a copy exists at `~/
 ```
 
 {%
-  include-markdown "./system-prompts/2026-10-21/system-prompt.md"
+  include-markdown "./system-prompts/2026-10-21/system_prompt.md"
 %}
