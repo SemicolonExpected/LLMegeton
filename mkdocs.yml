@@ -72,5 +72,5 @@ nav:
     - Luna: models/luna/index.md
     - Notion AI: models/notion-ai/index.md
   - About: 
-    - SemicolonExpected: docs/assets/under-construction.md
+    - SemicolonExpected: docs/whoami.md
     - Daimon: docs/models/daimon/index.md
