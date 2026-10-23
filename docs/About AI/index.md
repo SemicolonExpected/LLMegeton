@@ -2,11 +2,11 @@
 
 ## What is AI and GenAI compared to other things
 
-Some think AI and ML are two distinct groups of algorithms when in reality, it’s comparing apples to oranges. Machine learning is a type of AI. AI algorithms aren’t necessarily machine learning based, nor are they stochastic (uses statistics). The “intelligence” part just means decision making. An *artificial intelligence algorithm* is just _an algorithm where a machine makes decisions_—even simple ones. Pathing algorithms for video games are AI. [Here’s a video on how A*](https://youtu.be/i0x5fj4PqP4?is=hU8tmcgtkwDewM7m), a pathfinding algorithm from the 1960’s works. Classifiers like spam filters are AI.
+Some think AI and ML are two distinct groups of algorithms when in reality, it’s comparing apples to oranges. Machine learning is a type of AI. AI algorithms aren’t necessarily machine learning based, nor are they stochastic (uses statistics). The “intelligence” part just means decision making. An **artificial intelligence algorithm** is just _an algorithm where a machine makes decisions_—even simple ones. Pathing algorithms for video games are AI. [Here’s a video on how A*](https://youtu.be/i0x5fj4PqP4?is=hU8tmcgtkwDewM7m), a pathfinding algorithm from the 1960’s works. Classifiers like spam filters are AI.
 
 Of course, colloquially now, when we use the term AI, we think of “Generative AI”(GenAI)—
 People consider “GenAI” distinct from “Assistive AI” and ML. Assistive AI is not a technical term.
-All of what we call GenAI is deep learning based, a subset of machine learning. *Generative AI* is just _an algorithm that generates new content using AI_ and has been around since the 90s. Procedural generation like Minecraft or No Man Sky maps are GenAI. Alexa and Text to Speech is Generative AI. 
+All of what we call GenAI is deep learning based, a subset of machine learning. **Generative AI** is just _an algorithm that generates new content using AI_ and has been around since the 90s. Procedural generation like Minecraft or No Man Sky maps are GenAI. Alexa and Text to Speech is Generative AI. 
 GenAI is used to generate accurate data to train classifiers when you don’t have enough data and you can’t reasonably gather that data ethically. Deepfake detection is type of classifier that uses Generative Adversarial Networks in a cat and mouse type game where the generative side tries to fool the detector and the detector gets better at not getting fooled.
 
 Whether the AI is “assistive” or not is based on the tool and subjective. Unless you mean like a personal assistant, which is agentic, a because you have “agents” who use generative models to orchestrate a task. A chat consists of a single agent at a time.
