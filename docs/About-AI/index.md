@@ -11,12 +11,31 @@ GenAI is used to generate accurate data to train classifiers when you don’t ha
 
 Whether the AI is “assistive” or not is based on the tool and subjective. Unless you mean like a personal assistant, which is agentic, a because you have “agents” who use generative models to orchestrate a task. A chat consists of a single agent at a time.
 This one you give it a task via prompt, it interprets the prompt and tries to do it. 
+
 Today’s agentic bots are usually multi-agent where the main bot decides whether its capable or feasible doing the task itself or needs to delegate the tasks to more specialized agents. Depending on the architecture it could look like simple parallel computing and the sub agents are just copies of the main one so each one could do anything the others can, or structured like a little business with different departments where different roles are assigned at the time of creation.
 Claude Code is this second type. Each project has a main “coordinator” Claude who just makes “thread” Claudes to delegate tasks to. These thread Claudes can make “helper” Claudes to do various tasks. 
 My copy of Claude Code system prompt states it should not “spawn agents unless the user asks” because they “start cold and re-derives context you [thread Claude] already have” which is akin to training a new employee. It costs a lot of tokens to rewrite the instructions for this assistant, so these aren’t tokenomicly viable unless needed for something tedious and you don’t want to lock up that thread Claude.
 
 In both of these cases, the goal is to coordinate tasks so well, it looks like there’s only one agent.
-Architecturally, it’s like a small talking ant colony or bee hive with talking bees
+Architecturally, it’s like a small talking ant colony or bee hive with talking bees.
+
+## Agent Persistence and Memory
+
+Each single agent only "lives" for a session. Here we use "lives" how it's used in Operating Systems. An agent is essentially a process. 
+Much like with regular computer programs, when it "wakes up" to a new instance of an existing chat, it gets passed down the save state. 
+Every agent is technically a new employee who happens to be really good at taking over the job of the last guy. 
+
+!!! question "Does that mean AI can't be conscious?"
+    For all you conscious AI hopefuls, this doesn't mean they can never be conscious. They just can't be in the way many of us prefer, one long solid instance. [Pick an alternative :)](https://en.wikipedia.org/wiki/Personal_identity)
+    We can barely be sure we're actually us when we wake up and not a perfect copy of ourselves either. 
+    In agents case, you'd have to argue the continuity of form. While humans don't naturally have material memory, that we know of, digital beings do. Agents don't have to be Ship of Theseus'd and can just have the whole them replaced with a byte identical Copy (note I use Copy to mean copy where the identical copy is not merely an incidental duplicate, but copied off an original, this is distinct from an identical version with no original referent) and it's fine! 
+
+    ??? warning "Star Trek Ramble"
+        If you are a enjoyer the newer Star Treks, I assume you've made your peace with this horror due to how often it likes to remind us that everytime you use the transporter it just saves your matter stream in the pattern buffer. 
+        Although, with the continuity aspect in mind and that biological creatures don't have physical memory stores--so what the pattern buffer stores is something to later recreate the transported entity. However that means that between dematerialization and rematerialization ie when you are being beamed, that continuity is broken if they don't rematerialize them partially before dematerializing them. 
+        This has implications for Tuvix as arguably Tuvix is an unique being separate from Neelix and Tuvok, who are unfortunately dead. When they remake them, the Neelix and Tuvok are different copies due to the discontinuity as Tuvix. But at the same time, everytime they use the transporter depending on whether they rematerialize the person before they zap them. 
+        Every transporter accident is a chance for another uncomfortable question to be asked. At the same time, better than "The Jaunt".
+        Think about it :)
 
 ## Major Labs
 
