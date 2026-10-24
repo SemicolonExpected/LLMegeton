@@ -51,8 +51,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - AI Overview:
-    - Main: docs/About-AI/index.md
-    - Myths: docs/About-AI/myths.md
+    - Main: About-AI/index.md
+    - Myths: About-AI/myths.md
     - Capabilities: capabilities/index.md
     - Skills: skills/index.md
     - Prompting Guide: prompting-guide/index.md
@@ -61,9 +61,9 @@ nav:
     - Models: models/index.md
     - Claude:
       - Claude:
-        - Sonnet 5.5: docs/models/claude/Sonnet-5.5/index.md
-        - Opus 5.5: docs/models/claude/Opus-5.5/index.md
-      - Claude Code: docs/models/claude/Claude-Code/index.md
+        - Sonnet 5.5: models/claude/Sonnet-5.5/index.md
+        - Opus 5.5: models/claude/Opus-5.5/index.md
+      - Claude Code: models/claude/Claude-Code/index.md
       - Claude Science: models/claude/claude-tips/index.md
       - Bug Zoo: models/claude/bug-zoo/index.md
       - Style Guide: models/claude/bug-zoo/style-guide/index.md
@@ -74,4 +74,4 @@ nav:
     - Notion AI: models/notion-ai/index.md
   - About: 
     - SemicolonExpected: docs/whoami.md
-    - Daimon: docs/models/daimon/index.md
+    - Daimon: models/daimon/index.md
