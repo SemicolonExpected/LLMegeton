@@ -53,6 +53,7 @@ nav:
   - AI Overview:
     - Main: About-AI/index.md
     - Myths: About-AI/myths.md
+    - Tokenomics: About-AI/tokenomics.md
     - Capabilities: capabilities/index.md
     - Skills: skills/index.md
     - Prompting Guide: prompting-guide/index.md
@@ -78,3 +79,6 @@ nav:
   - About: 
     - SemicolonExpected: docs/whoami.md
     - Daimon: models/daimon/index.md
+
+hooks:
+  - hooks.py
