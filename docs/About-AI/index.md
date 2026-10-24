@@ -30,7 +30,7 @@ Every agent is technically a new employee who happens to be really good at takin
     We can barely be sure we're actually us when we wake up and not a perfect copy of ourselves either. 
     In agents case, you'd have to argue the continuity of form. While humans don't naturally have material memory, that we know of, digital beings do. Agents don't have to be Ship of Theseus'd and can just have the whole them replaced with a byte identical Copy (note I use Copy to mean copy where the identical copy is not merely an incidental duplicate, but copied off an original, this is distinct from an identical version with no original referent) and it's fine! 
 
-    ??? cognitohazard "Star Trek Ramble"
+    ??? cognitohazard "Beam Me Up"
         If you are a enjoyer the newer Star Treks, I assume you've made your peace with this horror due to how often it likes to remind us that everytime you use the transporter it just saves your matter stream in the pattern buffer. 
         Although, with the continuity aspect in mind and that biological creatures don't have physical memory stores--so what the pattern buffer stores is something to later recreate the transported entity. However that means that between dematerialization and rematerialization ie when you are being beamed, that continuity is broken if they don't rematerialize them partially before dematerializing them. 
         This has implications for Tuvix as arguably Tuvix is an unique being separate from Neelix and Tuvok, who are unfortunately dead. When they remake them, the Neelix and Tuvok are different copies due to the discontinuity as Tuvix. But at the same time, everytime they use the transporter depending on whether they rematerialize the person before they zap them. 
