@@ -56,14 +56,13 @@ Bug-type tags (what kind of bug):
 
 - `thought crime` — erroneous triggering of a safety harness. The crime is the harness's, not the reporter's.
 - `alignment` — alignment-based bugs: model behavior diverging from intent (sycophancy, performative disagreement, calibration problems).
-- `app` — app-layer bugs: issues in the application layer (client, UI, platform integration) rather than the model itself.
 
 Model tags (which model):
 
-- `Claude`, `Sonnet 5.5` — Anthropic orange.
+- `Claude`, `Sonnet 5.5`, `ClaudeCode` — Anthropic orange.
 - `Muse`, `Spark 1.3`, `Meta.AI` — Meta blue.
 - `Gemini` — Google four-color bands.
 - `Notion` — white.
 - `ChatGPT`, `Luna 5.6`, `Luna 6` — OpenAI green (Luna is a custom GPT).
 
-Tag colors live in `docs/stylesheets/extra.css`, targeted by the slugified tag in the chip's link (`[href*="tag:..."]`). Slugs are lowercase with dots stripped (`Sonnet 5.5` → `tag:sonnet-55`, `Meta.AI` → `tag:metaai`). If you add a tag, add its color there too.
+Tag colors live in `docs/stylesheets/extra.css`, targeted by the slugified tag in the chip's link (`[href*="tag:..."]`). Slugs are lowercase with dots stripped (`Sonnet 5.5` → `tag:sonnet-55`, `Meta.AI` → `tag:metaai`). Write `ClaudeCode` (no space) — the one true spelling. If you add a tag, add its color there too.

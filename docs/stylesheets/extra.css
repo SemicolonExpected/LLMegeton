@@ -81,9 +81,11 @@
 
 /* --- model tags --- */
 
-/* Claude / Sonnet 5.5: Anthropic orange */
+/* Claude / Sonnet 5.5 / Claude Code: Anthropic orange (both spellings covered) */
 .md-tag[href*="tag:claude"],
-.md-tag[href*="tag:sonnet-55"] {
+.md-tag[href*="tag:sonnet-55"],
+.md-tag[href*="tag:claudecode"],
+.md-tag[href*="tag:claude-code"] {
   background-color: #d97757;
   color: #fff !important;
 }
