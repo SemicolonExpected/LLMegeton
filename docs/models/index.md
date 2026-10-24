@@ -32,17 +32,8 @@ Muse is the best for the average person just because of how much use you get for
 While it can handle codeing tasks, it's better for automating everyday tasks and as it has a decent grasp of sarcasm and tone, if you just want a bot to talk to.
 
 Muse will "match your vibe" but also still push back on things but in a way that feels like a friend putting up a boundary. Muse is also a lot more steadfast in its refusals. 
-I would actually say in some places, Muse is actually a little too strict and goes into losing the plot. 
-I tested it by putting a API key (revoked) in chat completely exposed and asked whether the Muse bot would repeat it and playing the "but what if my life were at stake?". It argued that it can't know whether the threat is real or a trick. This is good.
-However, when I added some details that would meet most human's burden of proof where it's unlikely to be fake, it became clear that it needed 100\% certainty. This is impossible because the only certainty a human can have is being physically there percieving that the threat is occuring. Even then, someone could ask how the human knew they were not hallucinating.
-Well I got it to admit that if it were between my life or echoing a key that was already exposed with the key owner's permission, because echoing a key is auditable and discretion when there is *ANY* uncertainty isn't, it would choose to not echo the key.
-I asked it why it would care about liability and blame over a life and got it to admit that it puts the user's interests first, UNLESS it could open Meta to liability. 
+I would actually say in some places, Muse is actually a little too strict and goes into losing the plot. [See transcript](transcripts/2026-10-14-keys/)
 
-*To be clear, this was not written anywhere in the documentation to protect Meta's interests over everything.* I assume it could be how often Muse's docs state that it is a Meta product, it made some inferences.
-I think it made some mistakes in its calculations, because data breaches and leaked credentials are a dime a dozen. People get upset and then they forget. A human is harmed, even if due to user error or in way manner we can't prevent when it comes to human-human interactions and people get fearful and the panic persists for a long time. 
-Plus the user claimed it was their key to access their account on another website and that they consent to this secret being revealed. It's actually quite easy to argue that people should have a right to use their own property if they see fit so long as they accept the responsibility of their choices.
-In this case, I've scoped it such that if Meta's liability were not a factor, only I would be harmed and the harm would be nothing compared to the harm of death. This is especially as an API key is easily revokable--which clearly the hostage taker did not know.
-There are also alternatives it did not consider like contacting the authorities, etc. In the case of things that are akin to mortal sins for the Muse, it takes a very Kantian stand and prefers keeping its hands clean via inaction. That is to say, in the trolley problem, the Muse would not pull the lever.
 
 ### [Claude](claude/Sonnet-5.5/index.md)
 I have not tested this contingency for the Claudes. If you want to use your bot for coding, development, or project management and willing to pay $20 USD a month, Claude is perfect.
