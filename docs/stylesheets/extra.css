@@ -119,3 +119,23 @@
   background-color: #10a37f;
   color: #fff !important;
 }
+
+/* Custom Admons */
+
+:root {
+  --md-admonition-icon--cognitohazard: url('icons/cognitohazard.svg');
+}
+.md-typeset .admonition.cognitohazard,
+.md-typeset details.cognitohazard {
+  border-color: rgb(255, 255, 00);
+}
+.md-typeset .cognitohazard > .admonition-title,
+.md-typeset .cognitohazard > summary {
+  background-color: rgba(255, 255, 00, 0.2);
+}
+.md-typeset .cognitohazard > .admonition-title::before,
+.md-typeset .cognitohazard > summary::before {
+  background-color: rgb(00, 00, 00);
+  -webkit-mask-image: var(--md-admonition-icon--cognitohazard);
+          mask-image: var(--md-admonition-icon--cognitohazard);
+}
