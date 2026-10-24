@@ -51,8 +51,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - AI Overview:
-    - Main: <docs/About AI/index.md>
-    - Myths: <docs/About AI/myths.md>
+    - Main: docs/About-AI/index.md
+    - Myths: docs/About-AI/myths.md
     - Capabilities: capabilities/index.md
     - Skills: skills/index.md
     - Prompting Guide: prompting-guide/index.md
