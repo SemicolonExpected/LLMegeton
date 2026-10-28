@@ -77,7 +77,7 @@ nav:
       - Notion AI: models/notion-ai/index.md
       - Bug Zoo: models/notion-ai/bug-zoo/index.md
   - About: 
-    - SemicolonExpected: docs/whoami.md
+    - SemicolonExpected: whoami.md
     - Daimon: models/daimon/index.md
 
 hooks:
