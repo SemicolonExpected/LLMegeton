@@ -71,7 +71,11 @@ nav:
     - Muse: 
       - Muse Spark 1.3: models/muse/index.md
       - Bug Zoo: models/muse/bug-zoo/index.md
-    - Luna: models/luna/index.md
+    - Luna:
+      - Luna: models/luna/index.md
+      - Architecture: models/luna/architecture/index.md
+      - Weirdness: models/luna/weirdness/index.md
+      - Bug Zoo: models/luna/bug-zoo/index.md
     - Notion AI:
       - Notion AI: models/notion-ai/index.md
       - Bug Zoo: models/notion-ai/bug-zoo/index.md
