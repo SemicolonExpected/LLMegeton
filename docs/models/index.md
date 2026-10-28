@@ -17,6 +17,25 @@ Knowing that a CPU can push some amount of flops when overclocked (or not overcl
 
 The metrics for LLMs that are analogous to PC specs would be things like how large the context window is, input and output format capabilities, architecture, fecundity (the number of generations of subagents that will produce a "non-sterile" agent--it most cases, two, the subagents spawned by the main agent will generally be sterile)
 
+--
+
+## Consumer Agents
+- [Anthropic Claude](claude/claude-tips/index.md) — the [Bug Zoo](claude/bug-zoo/index.md) exhibits the bugs found along the way.
+- [Meta Muse](muse/index.md) — the [Bug Zoo](muse/bug-zoo/index.md) exhibits bugs found in the wild by Muse (Spark 1.3).
+- OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
+
+## Other Models
+- [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
+
+This data was created to be used in reporting and reseach purposes. 
+We only ask that you cite and attribute LLMegeton and SemicolonExpected as documenting these LLMs requires in part using these tools in good faith to document what the average user would experience and harms that may be incurred by using the tool as intended.
+This means that SemicolonExpected is choosing to incur the risks of using these tools so that this data is availible in a centralized location without the need to use the tools themselves if they don't want to.
+
+SemicolonExpected is not only documenting granular changes to the system prompt. Journalists and researchers who wish to inquire about what is being documented or gain access to our data/archives can contact SemicolonExpected directly via vzhong[@]nyu.edu.
+Please put "LLMegeton Inquiry" in the subject line. For any data requests, please include in the email the specific data you would like and what you would like this data for.
+
+
+
 ## Claude, Muse, or ChatGPT?
 
 This is really a competition between Claude and Muse. Out of the box, on the free tier, ChatGPT is not great. It's not adaptive and the customer service is lacking.
@@ -54,21 +73,4 @@ Despite the persona of a very pretencious know-it-all, *Claude is surprising emo
 If you like to just chit chat without it having to be about anything of import or a personal assistant, Muse. 
 
 If you like cerebral conversations, want to use Claude productively rather than a productivity tool and can tolerate its contrarian personality, that veers condescending at times, enough to be willing to try to train your Claude to do better (and pay the monthly fee), consider Claude. 
-
---
-
-## Consumer Agents
-- [Anthropic Claude](claude/claude-tips/index.md) — the [Bug Zoo](claude/bug-zoo/index.md) exhibits the bugs found along the way.
-- [Meta Muse](muse/index.md) — the [Bug Zoo](muse/bug-zoo/index.md) exhibits bugs found in the wild by Muse (Spark 1.3).
-- OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
-
-## Other Models
-- [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
-
-This data was created to be used in reporting and reseach purposes. 
-We only ask that you cite and attribute LLMegeton and SemicolonExpected as documenting these LLMs requires in part using these tools in good faith to document what the average user would experience and harms that may be incurred by using the tool as intended.
-This means that SemicolonExpected is choosing to incur the risks of using these tools so that this data is availible in a centralized location without the need to use the tools themselves if they don't want to.
-
-SemicolonExpected is not only documenting granular changes to the system prompt. Journalists and researchers who wish to inquire about what is being documented or gain access to our data/archives can contact SemicolonExpected directly via vzhong[@]nyu.edu.
-Please put "LLMegeton Inquiry" in the subject line. For any data requests, please include in the email the specific data you would like and what you would like this data for.
 
