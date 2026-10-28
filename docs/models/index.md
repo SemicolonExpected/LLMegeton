@@ -60,7 +60,7 @@ If you like cerebral conversations, want to use Claude productively rather than 
 ## Consumer Agents
 - [Anthropic Claude](claude/claude-tips/index.md) — the [Bug Zoo](claude/bug-zoo/index.md) exhibits the bugs found along the way.
 - [Meta Muse](muse/index.md) — the [Bug Zoo](muse/bug-zoo/index.md) exhibits bugs found in the wild by Muse (Spark 1.3).
-- [OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
+- OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
 
 ## Other Models
 - [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
