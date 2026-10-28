@@ -1,9 +1,25 @@
 # Models
 
-*Field notes on individual models: how each one behaves, what it's good at, and how to direct it.*
-
 !!! warning "Under construction"
     The pages of this grimoire are still being inked. Check back soon.
+
+## Content
+
+### Bug Zoos
+
+Quirky behavior and misalignments exhibited by the model or the model's UI. These will generally be harmless. **Any obviously harmful bug will not be published until patched by the model's company.**
+
+### System Prompts
+
+Not a secret.
+
+### Architecture
+
+`[Rinse Cycle]` We are sanitizing data and evaluating the best way to present the info.
+
+### Misc 
+
+- Interesting sanitized transcripts | Muse Spark 1.3 ([Daimon](muse/transcripts/index.md))
 
 ## Scope
 
@@ -19,10 +35,10 @@ The metrics for LLMs that are analogous to PC specs would be things like how lar
 
 --
 
-## Consumer Agents
-- [Anthropic Claude](claude/claude-tips/index.md) — the [Bug Zoo](claude/bug-zoo/index.md) exhibits the bugs found along the way.
-- [Meta Muse](muse/index.md) — the [Bug Zoo](muse/bug-zoo/index.md) exhibits bugs found in the wild by Muse (Spark 1.3).
-- OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
+## Major Consumer Agents
+- [Anthropic Claude](claude/claude-tips/index.md) | [Bug Zoo](claude/bug-zoo/index.md) | [System Prompts](claude/prompts/index.md)
+- [Meta Muse](muse/index.md) | [Bug Zoo](muse/bug-zoo/index.md) 
+- OpenAI Chat GPT [Luna](luna/index.md) | [Bug Zoo](luna/bug-zoo.md)
 
 ## Other Models
 - [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
