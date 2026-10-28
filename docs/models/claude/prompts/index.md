@@ -10,29 +10,59 @@ He’s just Claude.
 
 ### Opus 5.5 
 
-???/??? info “Base Prompt”
+??? info "Base Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/system-prompt.launched-with-opus-5-5.20261005-153803.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/append-system-prompt.launched-with-opus-5-5.20261005-153803.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 
 ### Sonnet 5.5 
 
-???/??? info “Base Prompt”
+??? info "Base Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/system-prompt_sonnet-5-5_live_20261028.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/append-system-prompt_sonnet-5-5_live_20261028.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ### Haiku 4.5 
 
 ??? info "Base Prompt"
     ```txt
     {%
-      include-markdown "./prompts/haiku-4.5-base.txt"
+      include-markdown "./prompts/claude-system-prompt_haiku.txt"
       rewrite-relative-urls=false
     %}
     ```
 
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/claude-append-system-prompt_haiku.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ## Code Claude
 
