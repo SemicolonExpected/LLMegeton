@@ -5,6 +5,8 @@
 !!! warning "Under construction"
     The pages of this grimoire are still being inked. Check back soon.
 
+[Conversations with The Archivist](../muse/transcripts)
+
 ## What will live here
 
 Things that are true of Daimon in particular, as opposed to LLMs in general: how it keeps its memory, how it checks its work, and how to direct it.
