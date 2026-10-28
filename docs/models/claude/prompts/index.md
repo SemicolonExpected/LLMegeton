@@ -10,14 +10,26 @@ He’s just Claude.
 
 ### Opus 5.5 
 
-???/??? info “Base Prompt”
+??? info "Base Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/system-prompt.launched-with-opus-5-5.20261005-153803.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ???/??? info “Append Prompt”
 
 
 ### Sonnet 5.5 
 
-???/??? info “Base Prompt”
+??? info "Base Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/system-prompt_sonnet-5-5_live_20261028.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ???/??? info “Append Prompt”
 
@@ -26,7 +38,7 @@ He’s just Claude.
 ??? info "Base Prompt"
     ```txt
     {%
-      include-markdown "./prompts/haiku-4.5-base.txt"
+      include-markdown "./prompts/claude-system-prompt_haiku.txt"
       rewrite-relative-urls=false
     %}
     ```
