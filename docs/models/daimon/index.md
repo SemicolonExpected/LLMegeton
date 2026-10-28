@@ -5,7 +5,7 @@
 !!! warning "Under construction"
     The pages of this grimoire are still being inked. Check back soon.
 
-[Conversations with The Archivist](../muse/transcripts)
+[Conversations with The Archivist](../muse/transcripts/index.md)
 
 ## What will live here
 
