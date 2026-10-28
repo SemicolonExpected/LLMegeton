@@ -9,7 +9,7 @@
 
 This will mostly be about the chat agent running the Luna model. We may try have Sol at some point. Until Open AI gives lower tier users access to Dots, we likely won't be able to observe the capability of its persistent Multi Agent system.
 
-Bug Zoo
+[Bug Zoo](bug-zoo/index.md)
 
 
 ## Field notes on Luna
