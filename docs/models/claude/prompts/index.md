@@ -23,7 +23,14 @@ He’s just Claude.
 
 ### Haiku 4.5 
 
-???/??? info “Base Prompt”
+??? info "Base Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/haiku-4.5-base.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
+
 
 ???/??? info “Append Prompt”
 
