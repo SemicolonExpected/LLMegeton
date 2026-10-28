@@ -18,7 +18,13 @@ He’s just Claude.
     %}
     ```
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/append-system-prompt.launched-with-opus-5-5.20261005-153803.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 
 ### Sonnet 5.5 
@@ -31,7 +37,13 @@ He’s just Claude.
     %}
     ```
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/append-system-prompt_sonnet-5-5_live_20261028.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ### Haiku 4.5 
 
@@ -44,7 +56,13 @@ He’s just Claude.
     ```
 
 
-???/??? info “Append Prompt”
+??? info "Append Prompt"
+    ```txt
+    {%
+      include-markdown "./prompts/claude-append-system-prompt_haiku.txt"
+      rewrite-relative-urls=false
+    %}
+    ```
 
 ## Code Claude
 
