@@ -61,9 +61,7 @@ nav:
   - Models:
     - Models: models/index.md
     - Claude:
-      - Claude:
-        - Sonnet 5.5: models/claude/Sonnet-5.5/index.md
-        - Opus 5.5: models/claude/Opus-5.5/index.md
+      - Claude: models/claude/Sonnet-5.5/index.md
       - Claude Code: models/claude/Claude-Code/index.md
       - Claude Science: models/claude/claude-tips/index.md
       - Bug Zoo: models/claude/bug-zoo/index.md
