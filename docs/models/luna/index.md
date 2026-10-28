@@ -9,7 +9,7 @@
 
 This will mostly be about the chat agent running the Luna model. We may try have Sol at some point. Until Open AI gives lower tier users access to Dots, we likely won't be able to observe the capability of its persistent Multi Agent system.
 
-[Bug Zoo](bug-zoo/index.md) | [Luna Architecture.md](Luna%20Architecture.md) — Luna's runtime environment: container layout, the Jupyter → VM execution pipeline, and known specs.
+[Bug Zoo](bug-zoo/index.md) | [Luna Architecture](architecture/index.md) — Luna's runtime environment: container layout, the Jupyter → VM execution pipeline, and known specs.
 
 ## Motivation
 
