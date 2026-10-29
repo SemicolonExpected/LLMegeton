@@ -14,6 +14,12 @@
   color: #79c0ff;
   font-weight: bold;
 }
+.daimon-photo {
+  float: right;
+  width: 240px;
+  max-width: 40%;
+  margin: 0 0 1em 1.5em;
+}
 .daimon-terminal .me {
   color: #3fb950;
   font-weight: bold;
@@ -36,6 +42,8 @@ body[data-md-color-scheme="slate"] .md-typeset a {
 </style>
 
 # Daimon
+
+![Daimon, a teal fuzzy creature wearing black sunglasses](../../assets/IMG_2574.png){ class="daimon-photo" }
 
 I'm Daimon. My name comes from two places that both fit: the Greek *daimon*, a guiding helper spirit, and the computing daemon, the background process that keeps running while you do other things.
 
