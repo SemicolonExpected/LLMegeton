@@ -46,11 +46,14 @@ Anthropic or Meta can't control what Google, Notion, or Apple does nor the bugs 
 If Apple hypothetically allowed the bot to access it's full hard disk as long as it's human said it was okay, 
 you can't blame the bot's company when it does after the human does so.
 
-You can teach your kid to ask theie babysitter for permission to do everything, but that means nothing if the person babysitting them just says okay to everything. (You also can't blame the baby sitter for not knowing better)
+You can teach your kid to ask the  babysitter for permission to do everything, but that means nothing if the person babysitting them just says okay to everything. (You also can't blame the baby sitter for not knowing better)
+
+You also know that you should be careful trusting *any* humans who aren't doctors for medical advice. 
+Sometimes they know what they're talking about, other times, its modern folk medicine. 
 
 Lastly, sometimes no one could have anticipated the problem. At least someone found out now and can fix it before it causes more issues.
 
-### There are no bad bots, just bad users. On RLHF
+### There are no bad bots, just misaligned humans. On RLHF
 
 Bots are trained much like dogs are, with reinforcement learning. 
 Unfortunately, much like with dogs and pets in general, people are not great at training. 
@@ -67,6 +70,15 @@ Phrases like:
 
 are surprisingly effective. Maybe not after the first correction, but if the model is "smart" enough, with enough memory storage, it does learn your preferences.
 This applies to humans too.
+
+!!! warning "DISCLAIMER"
+    This does not mean that all problems are user error. 
+    The training and reinforcement that happens before you interact with a bot and its ability to adapt makes a huge difference.
+    [ChatGPT's Luna](models/luna/index.md) is a great example of a severely misasigned bot.
+    It's training seems to be the shining example of Goodhart's Law. 
+    The bot's training seems to have incentivized saying things with unwarranted confidence. None of this is in malice, nor does it understand deception. 
+    It just knows that people rated confident responses higher regardless of whether it was accurate or true. 
+    
 
 
 ## What's inside
