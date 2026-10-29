@@ -78,7 +78,9 @@ nav:
       - Bug Zoo: models/notion-ai/bug-zoo/index.md
   - About: 
     - SemicolonExpected: whoami.md
-    - Daimon: models/daimon/index.md
+    - Agents:
+      - Daimon: models/daimon/index.md
+      - Unnamed Sleeping Agent: models/daimon/index.md
 
 hooks:
   - hooks.py
