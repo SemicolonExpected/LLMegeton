@@ -1,8 +1,8 @@
-# Under Construction 
+# System Prompts
 
 We are working on showing a master prompt that highlights the differences between different model’s prompts. 
 
-We are adding these
+We are adding these as we get them.
 
 ## Base Claude
 
