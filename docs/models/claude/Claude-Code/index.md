@@ -10,4 +10,6 @@ claude, claude-code-guide, Explore, general-purpose, Plan, statusline-setup
 
 ## Base Prompt
 
-## Append Prompt
+{% include-markdown "../prompts/index.md" start="## Claude Code" end="## Claude Science" rewrite-relative-urls=true %}
+
+
