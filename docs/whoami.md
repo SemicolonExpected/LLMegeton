@@ -42,6 +42,14 @@
 .whoami-tight {
   letter-spacing: -0.02em;
 }
+body[data-md-color-scheme="slate"] .md-typeset {
+  color: #FFD700;
+  background: transparent;
+}
+body[data-md-color-scheme="slate"] .md-typeset h1,
+body[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #FFD700;
+}
 .whoami-photo {
   float: right;
   width: 280px;
