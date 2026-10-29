@@ -1,8 +1,98 @@
-# *De Scriptore*
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,400&family=Baskervville:ital@1&family=IBM+Plex+Sans:wght@300&display=swap');
+.md-typeset {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #3F1010;
+  background: rgba(255, 230, 255, 0.1);
+}
+.md-typeset h1 {
+  font-family: 'Newsreader', serif;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 1.05;
+  color: #4A0E14;
+  display: inline-block;
+  transform: skewX(-6deg);
+  margin: 0;
+  white-space: nowrap;
+}
+.md-typeset h2 {
+  font-family: 'Baskervville', serif;
+  font-style: italic;
+  font-size: 42px;
+  line-height: 1.1;
+  color: #4A0E14;
+  margin: 0.8em 0 0.75em;
+  white-space: nowrap;
+}
+.md-typeset p {
+  padding-left: 0.5em;
+  padding-right: 0.25em;
+  text-align: left;
+  text-indent: 0;
+}
+.whoami-latin {
+  font-family: 'Baskervville', serif;
+  font-style: italic;
+  font-size: 1.15em;
+}
+.whoami-tight {
+  letter-spacing: -0.02em;
+}
+.whoami-photo {
+  float: right;
+  width: 280px;
+  max-width: 40%;
+  margin: 0 1em 1.6em 1.5em;
+  border-radius: 50%;
+}
+@media (min-width: 601px) {
+  .md-typeset {
+    font-size: 16px;
+  }
+}
+@media (max-width: 850px) and (min-width: 701px) {
+  .whoami-photo {
+    width: 210px;
+  }
+}
+@media (max-width: 700px) {
+  .whoami-photo {
+    float: none;
+    display: block;
+    width: 220px;
+    max-width: 70%;
+    margin: 0 auto 2.4em auto;
+  }
+  .md-typeset h1,
+  .md-typeset h2 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform-origin: center;
+  }
+  .md-typeset h1 {
+    font-size: 12vw;
+  }
+  .md-typeset h2 {
+    font-size: 6.8vw;
+    margin-top: 1.6em;
+    margin-bottom: 0.75em;
+  }
+}
+</style>
 
-## Quis SemicolonExpected?
+![SemicolonExpected wearing cat-ear headphones](assets/IMG_1832.jpeg){ class="whoami-photo" }
 
-*Salvete! Mihi nomen est*--okay, okay, I'll drop the Latin. 
+# *De S<span class="whoami-tight">cr</span>ipto<span class="whoami-tight">re</span>* { .whoami-center-mobile }
+
+## Quis SemicolonExpected? { .whoami-center-mobile }
+
+<span class="whoami-latin">*Salvete! Mihi nomen est*--</span>okay, okay, I'll drop the Latin. 
 I'm Victoria a.k.a SemicolonExpected, the username mentioned in third person on a bunch of the pages. 
 I'm the creator, maintainer, and archivist of LLMegeton. 
 I'm a PhD Candidate studying Computer Science hoping to graduate in Spring 2027. 
