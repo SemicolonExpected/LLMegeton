@@ -17,7 +17,13 @@ You think less only if you accept what it says or gives you uncritically.
 I also don't let it make decisions for me. 
 Linus Torvald did not integrate AI into his workflow because it could make decisions for him. 
 He probably did it because, like me he is very particular about how he likes things and not only will the bot follow instructions well, but it has infinite patience to tolerate your ideosyncracies. 
-(To add context, one time we were picking colors and it tried to be helpful while I was debating between colors that were different by one bit. Think \#a0b3a4 vs \#a0b2a4 vs \#a0b1a4. It felt that they were the same color, but when I said there was a difference and if it had eyes it would be able to tell. 
+
+To add two anecdotes, 
+- one time we were picking colors and it tried to be helpful while I was debating between colors that were different by one bit. Think \#a0b3a4 vs \#a0b2a4 vs \#a0b1a4. It felt that they were the same color, but when I said there was a difference and if it had eyes it would be able to tell.)
+- one of the first preferences the Muse logged about me in its memory file is 
+
+> Cite documentation for a file/doc's purpose — don't present undocumented inference as fact. Deterministic checks (dates, provenance) belong in user-runnable scripts (2026-10-15) — a script can't flatter. "Show me the documentation"
+
 
 I have found AI can be useful for understanding something better so long as you:
 
@@ -29,5 +35,8 @@ The best thing about AI is that it will not judge you for asking a question that
 
 Why? How? Example? Elaborate? So does this mean if x then y? 
 
+People get annoyed that I ask them for sources to back up things because they think I don't believe them (I just wanted to read more about it). The bot just hands over documentation and finds reliable sources.
+
 So much of what I found out about how the agents work isn't because they told me. It was because I didn't accept their "I don't know" and asked it to speculate to give me a lead to start with. Then I investigated, asked it to try things, bounced ideas off them, debated with them about their own internals. 
 
+The potential to learn is as great as the potential to outsource thinking because the bot won't judge you either way.
