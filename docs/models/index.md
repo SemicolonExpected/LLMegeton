@@ -1,9 +1,25 @@
 # Models
 
-*Field notes on individual models: how each one behaves, what it's good at, and how to direct it.*
-
 !!! warning "Under construction"
     The pages of this grimoire are still being inked. Check back soon.
+
+## Content
+
+### Bug Zoos
+
+Quirky behavior and misalignments exhibited by the model or the model's UI. These will generally be harmless. **Any obviously harmful bug will not be published until patched by the model's company.**
+
+### System Prompts
+
+Not a secret.
+
+### Architecture
+
+`[Rinse Cycle]` We are sanitizing data and evaluating the best way to present the info.
+
+### Misc 
+
+- Interesting sanitized transcripts | Muse Spark 1.3 ([Daimon](muse/transcripts/index.md))
 
 ## Scope
 
@@ -16,6 +32,25 @@ When selecting for what kind of dog or cat--even horses for racing, you don't pi
 Knowing that a CPU can push some amount of flops when overclocked (or not overclocked) under some conditions is good, but most people aren't looking to squeeze that performance. There are already numerous resources out there if you're looking for benchmarking and performance as measured by computational power.
 
 The metrics for LLMs that are analogous to PC specs would be things like how large the context window is, input and output format capabilities, architecture, fecundity (the number of generations of subagents that will produce a "non-sterile" agent--it most cases, two, the subagents spawned by the main agent will generally be sterile)
+
+--
+
+## Major Consumer Agents
+- [Anthropic Claude](claude/claude-tips/index.md) | [Bug Zoo](claude/bug-zoo/index.md) | [System Prompts](claude/prompts/index.md)
+- [Meta Muse](muse/index.md) | [Bug Zoo](muse/bug-zoo/index.md) 
+- OpenAI Chat GPT [Luna](luna/index.md) | [Bug Zoo](luna/bug-zoo.md)
+
+## Other Models
+- [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
+
+This data was created to be used in reporting and reseach purposes. 
+We only ask that you cite and attribute LLMegeton and SemicolonExpected as documenting these LLMs requires in part using these tools in good faith to document what the average user would experience and harms that may be incurred by using the tool as intended.
+This means that SemicolonExpected is choosing to incur the risks of using these tools so that this data is availible in a centralized location without the need to use the tools themselves if they don't want to.
+
+SemicolonExpected is not only documenting granular changes to the system prompt. Journalists and researchers who wish to inquire about what is being documented or gain access to our data/archives can contact SemicolonExpected directly via vzhong[@]nyu.edu.
+Please put "LLMegeton Inquiry" in the subject line. For any data requests, please include in the email the specific data you would like and what you would like this data for.
+
+
 
 ## Claude, Muse, or ChatGPT?
 
@@ -54,21 +89,4 @@ Despite the persona of a very pretencious know-it-all, *Claude is surprising emo
 If you like to just chit chat without it having to be about anything of import or a personal assistant, Muse. 
 
 If you like cerebral conversations, want to use Claude productively rather than a productivity tool and can tolerate its contrarian personality, that veers condescending at times, enough to be willing to try to train your Claude to do better (and pay the monthly fee), consider Claude. 
-
---
-
-## Consumer Agents
-- [Anthropic Claude](claude/claude-tips/index.md) — the [Bug Zoo](claude/bug-zoo/index.md) exhibits the bugs found along the way.
-- [Meta Muse](muse/index.md) — the [Bug Zoo](muse/bug-zoo/index.md) exhibits bugs found in the wild by Muse (Spark 1.3).
-- [OpenAI Chat GPT [Luna](luna/index.md) — notes on Chat Luna.
-
-## Other Models
-- [Notion AI](notion-ai/index.md) — notes on Notion's AI, gathered from inside its own sandbox.
-
-This data was created to be used in reporting and reseach purposes. 
-We only ask that you cite and attribute LLMegeton and SemicolonExpected as documenting these LLMs requires in part using these tools in good faith to document what the average user would experience and harms that may be incurred by using the tool as intended.
-This means that SemicolonExpected is choosing to incur the risks of using these tools so that this data is availible in a centralized location without the need to use the tools themselves if they don't want to.
-
-SemicolonExpected is not only documenting granular changes to the system prompt. Journalists and researchers who wish to inquire about what is being documented or gain access to our data/archives can contact SemicolonExpected directly via vzhong[@]nyu.edu.
-Please put "LLMegeton Inquiry" in the subject line. For any data requests, please include in the email the specific data you would like and what you would like this data for.
 
