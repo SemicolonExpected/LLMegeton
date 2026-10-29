@@ -83,6 +83,13 @@
     margin-top: 1.6em;
     margin-bottom: 0.75em;
   }
+  .md-typeset {
+    overflow-x: clip;
+  }
+  .md-typeset h1,
+  .md-typeset h2 {
+    max-width: 100%;
+  }
 }
 </style>
 
