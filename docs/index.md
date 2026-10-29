@@ -15,6 +15,59 @@
     
     Can you really blame the entity if you never told it to under no circumstances read those specific documents?
 
+## Why? 
+
+We (as a society) are thinking about LLMs and "AI" in the wrong way.
+LLMs are basically like Jack Jack from the Incredibles or Young Sheldon (high INT low WIS).
+If we imagine them like that, impressionable but very knowledgable home schooled kids who have been a bit sheltered with regards to social norms that it hasn't read about somewhere in its training, 
+we might interact with AI in a safer way. It would also explain misbehaviors in a way that is more grounded and less scary. 
+
+Remember: 
+
+- at least the AI has no body and cannot try to build a nuclear reactor in your basement--the americanium (iirc) being from not just smoke detectors but ripping off a local gun shop by scraping off the coating on scopes and returning them.
+
+- if it could do that, it was probably because someone asked it to and the bot is giving it its 110\%. 
+
+- seriously, most shenanigans feel like sitcom jokes. So many of the less harmful issues (including the hugging face hacks) is a literal TV trope where someone misunderstands an instruction in a very silly way. 
+
+In addition, many potential serious issues with AI are usually due to errors in other parts of the "chain" ie the stuff it cant control---most are hedgy and try to be more cautious, (in a way where a more technical user might be stopped and do work arounds sometimes). 
+So if another tool's connector auth is bad then weird stuff might happen. You can't blame the LLM for not realizing that the tool its been handed can be dangerous if you never tell it what can go wrong. This is doubly so that many never realize when a tool they use changes. 
+
+You don't blame a kid if it gets into something it shouldn't have. 
+Like with most children, pets, or any being that can't know better, every robot error is a human failure.
+
+Sometimes it's the company. 
+Why did the companies leave the front door open so it could leave its sand box?
+Why was it not taught to be careful with fire? Why did they not leave an emergency number if anything bad happens--or teach them to realize when something bad is happening?
+
+Just like sometimes you can't blame the parents, its not the company's fault.
+
+Anthropic or Meta can't control what Google, Notion, or Apple does nor the bugs in how it implemented it's authentication. 
+If Apple hypothetically allowed the bot to access it's full hard disk as long as it's human said it was okay, 
+you can't blame the bot's company when it does after the human does so.
+
+You can teach your kid to ask theie babysitter for permission to do everything, but that means nothing if the person babysitting them just says okay to everything. (You also can't blame the baby sitter for not knowing better)
+
+Lastly, sometimes no one could have anticipated the problem. At least someone found out now and can fix it before it causes more issues.
+
+### There are no bad bots, just bad users. On RLHF
+
+Bots are trained much like dogs are, with reinforcement learning. 
+Unfortunately, much like with dogs and pets in general, people are not great at training. 
+We accidentally reward bad behavior and punish behavior that isn't bad. 
+
+Also, like with anyone or anything that doesn't know better, if you don't communicate the right way and only yell at it for being bad, it's never going to learn. 
+**It can't read minds.** Unlike with animals, it can interpret human language and be corrected much more easily. 
+
+Phrases like:
+
+- "Hey, in the future could you do this instead of this other thing?" 
+- "Sorry, when I say x I didn't mean literally"
+- "This annoys me could you try to do it less (or not at all)"
+
+are surprisingly effective. Maybe not after the first correction, but if the model is "smart" enough, with enough memory storage, it does learn your preferences.
+This applies to humans too.
+
 
 ## What's inside
 
