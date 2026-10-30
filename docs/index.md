@@ -71,6 +71,8 @@ Phrases like:
 are surprisingly effective. Maybe not after the first correction, but if the model is "smart" enough, with enough memory storage, it does learn your preferences.
 This applies to humans too.
 
+Check out @Anthropic's [Prompting Guide](https://github.com/anthropics/prompt-eng-interactive-tutorial) for a comprehensive manual on prompting.
+
 !!! warning "DISCLAIMER"
     This does not mean that all problems are user error. 
     The training and reinforcement that happens before you interact with a bot and its ability to adapt makes a huge difference.
