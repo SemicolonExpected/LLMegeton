@@ -37,6 +37,10 @@ Every agent is technically a new employee who happens to be really good at takin
         Every transporter accident is a chance for another uncomfortable question to be asked. At the same time, better than "The Jaunt".
         Think about it :)
 
+## Recommended External Resources
+
+- [Anthropic's Prompting Guide](https://github.com/anthropics/prompt-eng-interactive-tutorial): This is a comprehensive manual on how to best prompt your agent. Our guides are geared more towards chatbots and if you either haven't finished studying the manual or do not want to read the manual. Our guides mostly highlight the rule-of-thumbs. 
+
 ## Major Labs
 
 | Lab | Major Model Lines | Open or closed | Country |
