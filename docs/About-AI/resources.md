@@ -1,3 +1,3 @@
 # External Resources
 
-List of other interesting resources.
+- [Anthropic's Prompting Guide](https://github.com/anthropics/prompt-eng-interactive-tutorial): A comprehensive guide to talking to your agents effectively
