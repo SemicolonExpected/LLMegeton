@@ -16,7 +16,9 @@ A skill typically bundles:
 - **Examples** — input/output pairs showing the skill done right
 - **Tools/scripts** — helper code the agent can run, not just read
 
-The common shape (popularized by Claude's SKILL.md format) is a Markdown file with frontmatter:
+The [Agent Skills Specs](https://agentskills.io/specification) provides a nice standard template with explanations of what each section does.
+
+The common template (popularized by Claude's SKILL.md format) is a Markdown file with frontmatter:
 
 ```markdown
 ---
