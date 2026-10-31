@@ -6,7 +6,7 @@ Source: [Meta](https://dev.meta.ai/resources/blog/build-with-muse-spark-open)
 ### Product Description
 ??? note “muse.md *Last Mirrored on 31 October 2026*”
   {%
-  include-markdown "./changelogs/muse-2026-31-10.md" heading-offset=1
+  include-markdown "./changelogs/muse-2026-10-31.md" heading-offset=1
   %}
 
 ### Data Handling
@@ -16,7 +16,7 @@ From what we can tell, how any data leaves the agent’s computer is likely thro
 
 ??? note “data-handling.md *Last Mirrored on 31 October 2026*”
   {%
-  include-markdown "./changelogs/data-handling-2026-31-10.md" heading-offset=1
+  include-markdown "./changelogs/data-handling-2026-10-31.md" heading-offset=1
   %}
 
 API Documentation: [Meta Model API](https://dev.meta.ai/docs/overview)
