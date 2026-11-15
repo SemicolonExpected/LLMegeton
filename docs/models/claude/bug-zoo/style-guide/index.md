@@ -60,6 +60,7 @@ Bug-type tags (what kind of bug):
 Model tags (which model):
 
 - `Claude`, `Sonnet 5.5`, `ClaudeCode` — Anthropic orange.
+- `Claude Duet` — Anthropic orange, same as Claude.
 - `Muse`, `Spark 1.3`, `Meta.AI` — Meta blue.
 - `Gemini` — Google four-color bands.
 - `Notion` — white.
